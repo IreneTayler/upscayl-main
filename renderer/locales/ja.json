@@ -1,0 +1,313 @@
+{
+  "TITLE": "Upscayl",
+  "INTRO": "Upscayl Cloudを紹介します！",
+  "HEADER": {
+    "GITHUB_BUTTON_TITLE": "GitHubでスターをつけてください 😁",
+    "DESCRIPTION": "AI画像アップスケーラー"
+  },
+  "FOOTER": {
+    "NEWS_TITLE": "UPSCAYLニュース",
+    "COPYRIGHT": "著作権 ©",
+    "TITLE": "作成者: ",
+    "LINK_TITLE": "Upscaylチーム"
+  },
+  "SETTINGS": {
+    "TITLE": "設定",
+    "CHANGE_LANGUAGE": { "TITLE": "言語を変更する" },
+    "IMAGE_COMPRESSION": {
+      "TITLE": "画像圧縮",
+      "DESCRIPTION": "PNG圧縮は非可逆的であるため、ファイルサイズが大幅に削減されることはなく、高い圧縮値はパフォーマンスに影響を与える可能性があります。JPGおよびWebP圧縮は可逆的です。"
+    },
+    "CUSTOM_MODELS": {
+      "TITLE": "カスタムモデルを追加",
+      "BUTTON_FOLDER": "フォルダを選択",
+      "DESCRIPTION": "簡単に独自のモデルを追加できます。詳細については：",
+      "LINK_TITLE": "カスタムモデルリポジトリ"
+    },
+    "CUSTOM_INPUT_RESOLUTION": {
+      "TITLE": "カスタム出力幅",
+      "RESTART": "再起動が必要",
+      "DESCRIPTION": "出力画像のカスタム幅を使用します。高さは自動的に調整されます。これを有効にすると、スケール設定が上書きされます。"
+    },
+    "DONATE": {
+      "DESCRIPTION": "私たちの活動が気に入ったら :)",
+      "BUTTON_TITLE": "💎 寄付する"
+    },
+    "GPU_ID_INPUT": {
+      "TITLE": "GPU ID",
+      "DESCRIPTION": "詳細については、Upscaylのドキュメントをお読みください。",
+      "ADDITIONAL_DESCRIPTION": "Windowsでパフォーマンスモードを有効にして、より良い結果を得ることができます。"
+    },
+    "IMAGE_FORMAT": {
+      "TITLE": "画像を保存する形式",
+      "PNG": "PNG",
+      "JPG": "JPG",
+      "WEBP": "WEBP"
+    },
+    "COPY_METADATA": {
+      "TITLE": "画像メタデータをコピー",
+      "DESCRIPTION": "アップスケールされた画像に元の画像メタデータ（EXIF）を保持します。",
+      "SUGGEST_JPG_TITLE": "推奨フォーマット変更",
+      "SUGGEST_JPG_DESCRIPTION": "異なるシステム間でのメタデータの互換性を高めるため、JPG形式の使用をお勧めします。変更しますか？",
+      "CHANGE_TO_JPG": "JPGに変更",
+      "KEEP_CURRENT_FORMAT": "{format}を維持"
+    },
+    "IMAGE_SCALE": {
+      "TITLE": "画像スケール",
+      "DESCRIPTION": "4X以上のスケール（16X Double Upscaylを除く）は、画像をリサイズするだけで、AIアップスケーリングは行われません。",
+      "WARNING": "5X以上は一部のデバイスでパフォーマンスに問題を引き起こす可能性があります！",
+      "ADDITIONAL_WARNING": "これにより、一部のデバイスでパフォーマンスに問題が発生する可能性があります！"
+    },
+    "LOG_AREA": {
+      "ON_COPY": "コピーされました ✅",
+      "BUTTON_TITLE": "ログをコピー 📋",
+      "NO_LOGS": "表示するログがありません"
+    },
+    "OVERWRITE_TOGGLE": {
+      "TITLE": "以前のアップスケールを上書き",
+      "DESCRIPTION": "有効にすると、Upscaylは画像を再処理し、直接ロードするのではなく再度処理します。"
+    },
+    "RESET_SETTINGS": {
+      "BUTTON_TITLE": "Upscaylをリセット",
+      "ALERT": "Upscaylがリセットされました。アプリを再起動してください。"
+    },
+    "SAVE_OUTPUT_FOLDER": {
+      "TITLE": "出力フォルダを保存",
+      "DESCRIPTION": "有効にすると、セッション間で出力フォルダが記憶されます。"
+    },
+    "AUTO_UPDATE": {
+      "TITLE": "自動更新",
+      "DESCRIPTION": "有効にすると、アプリケーションは新しい更新をチェックし、通知します。"
+    },
+    "ENABLE_CONTRIBUTION": {
+      "TITLE": "UPSCAYLの改善に協力",
+      "DESCRIPTION": "有効にすると、Upscaylは匿名の使用データを収集して、アプリケーションのインターフェースと機能を改善します。"
+    },
+    "THEME": {
+      "TITLE": "UPSCAYLテーマ"
+    },
+    "LANGUAGE": {
+      "TITLE": "UPSCAYLの言語"
+    },
+    "CUSTOM_TILE_SIZE": {
+      "TITLE": "カスタムタイルサイズ",
+      "DESCRIPTION": "画像をセグメント化するためにカスタムタイルサイズを使用します。これにより、生成されるタイルの数を減らして画像をより速く処理できます。"
+    },
+    "TURN_OFF_NOTIFICATIONS": {
+      "TITLE": "通知をオフにする",
+      "DESCRIPTION": "有効にすると、Upscaylは成功または失敗時にシステム通知を送信しなくなります。"
+    },
+    "SUPPORT": {
+      "TITLE": "問題がありますか？",
+      "DOCS_BUTTON_TITLE": "🙏 サポートを受ける",
+      "EMAIL_BUTTON_TITLE": "📧 開発者にメール"
+    },
+    "TTA_MODE": {
+      "TITLE": "TTAモード",
+      "DESCRIPTION": "テストタイムオーグメンテーションを有効にして、アーティファクトの除去など、より良い結果を得ることができますが、処理時間が8倍に増加します！"
+    },
+    "SYSTEM_INFO": {
+      "TITLE": "システム情報"
+    }
+  },
+  "APP": {
+    "TITLE": "Upscayl",
+    "BATCH_MODE": {
+      "TITLE": "バッチUpscayl",
+      "DESCRIPTION": "これにより、フォルダ内のすべてのファイルを一度にUpscaylできます"
+    },
+    "FILE_SELECTION": {
+      "TITLE": "ステップ 1",
+      "BATCH_MODE_TYPE": "フォルダを選択",
+      "SINGLE_MODE_TYPE": "画像を選択"
+    },
+    "MODEL_SELECTION": {
+      "TITLE": "ステップ 2",
+      "DESCRIPTION": "AIモデルを選択",
+      "IMPORTED_CUSTOM_MODELS": "インポートされたカスタムモデル",
+      "BEFORE": "前",
+      "AFTER": "後",
+      "ZOOM": "ズーム",
+      "MODELS": {
+        "upscayl-standard-4x": {
+          "NAME": "Upscaylスタンダード",
+          "DESCRIPTION": "ほとんどの画像に適しています。"
+        },
+        "upscayl-lite-4x": {
+          "NAME": "Upscaylライト",
+          "DESCRIPTION": "ほとんどの画像に適しています。最小限の品質損失で高速アップスケーリング。"
+        },
+        "remacri-4x": {
+          "NAME": "Remacri（非商用）",
+          "DESCRIPTION": "自然な画像に適しています。シャープネスとディテールが追加されます。商用利用不可。"
+        },
+        "ultramix-balanced-4x": {
+          "NAME": "Ultramix（非商用）",
+          "DESCRIPTION": "シャープネスとディテールのバランスが取れた自然な画像に適しています。"
+        },
+        "ultrasharp-4x": {
+          "NAME": "Ultrasharp（非商用）",
+          "DESCRIPTION": "シャープネスに重点を置いた自然な画像に適しています。"
+        },
+        "digital-art-4x": {
+          "NAME": "デジタルアート",
+          "DESCRIPTION": "デジタルアートやイラストに適しています。"
+        },
+        "high-fidelity-4x": {
+          "NAME": "高忠実度",
+          "DESCRIPTION": "リアルなディテールと滑らかなテクスチャに重点を置いたあらゆる種類の画像に適しています。"
+        }
+      }
+    },
+    "DOUBLE_UPSCAYL": {
+      "TITLE": "Double Upscayl",
+      "DESCRIPTION": "このオプションを有効にすると、画像に対して2回Upscaylを実行します。4X以上のスケールでは、処理時間が大幅に増加し、パフォーマンスに問題が発生する可能性があることに注意してください。"
+    },
+    "OUTPUT_PATH_SELECTION": {
+      "TITLE": "ステップ 3",
+      "MAC_APP_STORE_ALERT": "MacOS App Storeのセキュリティ制限のため、Upscaylを開始するたびに出力フォルダを選択する必要があります。\n\nこれを回避するには、Upscaylの「設定」タブでデフォルトの出力フォルダを永久に保存できます。",
+      "NOT_SELECTED": "未選択",
+      "DEFAULT_IMG_PATH": "画像のパスがデフォルトになります",
+      "DEFAULT_FOLDER_PATH": "フォルダのパスがデフォルトになります",
+      "BUTTON_TITLE": "出力フォルダを設定"
+    },
+    "SCALE_SELECTION": {
+      "TITLE": "ステップ 4",
+      "FROM_TITLE": "Upscayl元 ",
+      "TO_TITLE": " から ",
+      "NO_OUTPUT_FOLDER_ALERT": "まず出力フォルダを選択してください",
+      "START_BUTTON_TITLE": "Upscayl 🚀",
+      "IN_PROGRESS_BUTTON_TITLE": "Upscayl中 ⏳"
+    },
+    "MORE_OPTIONS_DRAWER": {
+      "RESET_BUTTON_TITLE": "画像をリセット",
+      "LENS_VIEW_TITLE": "レンズビュー",
+      "SLIDER_VIEW_TITLE": "スライダービュー",
+      "ZOOM_AMOUNT_TITLE": "ズーム量",
+      "TOTAL_UPSCAYLS": "総アップスケール数",
+      "TOTAL_BATCH_UPSCAYLS": "総バッチアップスケール数",
+      "TOTAL_IMAGE_UPSCAYLS": "総画像アップスケール数",
+      "TOTAL_DOUBLE_UPSCAYLS": "総ダブルアップスケール数",
+      "AVERAGE_UPSCAYL_TIME": "平均アップスケール時間",
+      "LAST_UPSCAYL_DURATION": "最後のアップスケール時間",
+      "LAST_USED_AT": "最終使用日時"
+    },
+    "PROGRESS_BAR": {
+      "BATCH_UPSCAYL_IN_PROGRESS_TITLE": "バッチUpscayl進行中：",
+      "IN_PROGRESS_TITLE": "Upscaylの魔法をかけています...",
+      "STOP_BUTTON_TITLE": "停止"
+    },
+    "RESET_BUTTON_TITLE": "リセット",
+    "RIGHT_PANE_INFO": {
+      "SELECT_FOLDER": "Upscaylするフォルダを選択",
+      "SELECT_IMAGE": "Upscaylする画像を選択",
+      "SELECT_FOLDER_DESCRIPTION": "フォルダにはPNG、JPG、JPEG、WEBPの画像以外のものが含まれていないことを確認してください。",
+      "SELECT_IMAGES_DESCRIPTION": "PNG、JPG、JPEG、またはWEBP画像を選択するか、ドラッグアンドドロップしてください。",
+      "PASTE_IMAGE_DESCRIPTION": "Ctrl+V または ⌘+V を押してクリップボードから画像を貼り付けます"
+    },
+    "PROGRESS": {
+      "PROCESSING_TITLE": "画像を処理中...",
+      "SCALING_CONVERTING_TITLE": "画像をスケールおよび変換中...",
+      "WAIT_TITLE": "少々お待ちください...",
+      "SUCCESS_TITLE": "Upscaylが成功しました！",
+      "BATCH": {
+        "SELECTED_FOLDER_TITLE": "選択されたフォルダ：",
+        "DONE_TITLE": "すべて完了しました！",
+        "OPEN_UPSCAYLED_FOLDER_TITLE": "Upscaylされたフォルダを開く"
+      }
+    },
+    "SLIDER": {
+      "ORIGINAL_TITLE": "オリジナル",
+      "UPSCAYLED_TITLE": "Upscayl後"
+    },
+    "DIALOG_BOX": {
+      "CLOSE": "閉じる"
+    }
+  },
+  "ERRORS": {
+    "GPU_ERROR": {
+      "TITLE": "GPUエラー",
+      "DESCRIPTION": "GPUに問題が発生しました。トラブルシューティングのためにドキュメントを参照してください！ ({data})"
+    },
+    "COPY_ERROR": {
+      "TITLE": "コピーエラー",
+      "DESCRIPTION": ""
+    },
+    "READ_WRITE_ERROR": {
+      "TITLE": "読み取り/書き込みエラー",
+      "DESCRIPTION": "パスが正しいことを確認し、適切な読み取り/書き込み権限を持っていることを確認してください \n({data})"
+    },
+    "TILE_SIZE_ERROR": {
+      "TITLE": "エラー",
+      "DESCRIPTION": "タイルサイズが正しくありません。設定でタイルサイズを変更するか、0に設定してください ({data})"
+    },
+    "EXCEPTION_ERROR": {
+      "TITLE": "例外エラー",
+      "DESCRIPTION": "Upscaylでエラーが発生しました。おそらく、Upscaylのバイナリがコマンドを適切に実行できなかった可能性があります。ログを確認して情報を取得してみてください。さらに支援が必要な場合は、UpscaylのGitHubリポジトリに問題を投稿することができます。"
+    },
+    "GENERIC_ERROR": {
+      "TITLE": "エラー"
+    },
+    "NO_OUTPUT_FOLDER_ERROR": {
+      "TITLE": "出力フォルダを設定",
+      "DESCRIPTION": "まず出力フォルダを選択してください"
+    },
+    "INVALID_IMAGE_ERROR": {
+      "TITLE": "無効な画像",
+      "DESCRIPTION": "PNG、JPG、JPEG、JFIF、または WEBP のような有効な拡張子の画像を選択/貼り付けてください。",
+      "ADDITIONAL_DESCRIPTION": "画像をドラッグアンドドロップしてください",
+      "CLIPBOARD_DESCRIPTION": "クリップボードに貼り付ける画像ファイルが見つかりません！"
+    },
+    "NO_IMAGE_ERROR": {
+      "TITLE": "画像が選択されていません",
+      "DESCRIPTION": "アップスケールする画像を選択してください"
+    },
+    "METADATA_ERROR": {
+      "TITLE": "メタデータのコピーエラー",
+      "DESCRIPTION": "元画像のメタデータを生成された画像にコピーできませんでした。({data})"
+    },
+    "OPEN_DOCS_TITLE": "ドキュメントを開く",
+    "OPEN_DOCS_BUTTON_TITLE": "トラブルシューティング"
+  },
+  "WARNING": {
+    "GENERIC_WARNING": {
+      "TITLE": "警告"
+    },
+    "METADATA_FORMAT": {
+      "TITLE": "メタデータの警告",
+      "DESCRIPTION": "一部のシステムでは、JPG以外の形式ではメタデータが表示されない場合があります。必要に応じて専用のツールを使用してメタデータを表示してください。"
+    }
+  },   
+  "UPSCAYL_CLOUD": {
+    "COMING_SOON": "近日公開！",
+    "CATCHY_PHRASE_1": "もうエラー、ハードウェアの問題、品質の妥協や長い読み込み時間はありません！",
+    "CATCHY_PHRASE_2": "🌐 いつでもどこでも、どのデバイスでもUpscayl\n☁️ グラフィックカードやハードウェアは不要\n👩 顔の改善\n🦋 10以上のモデルから選べます\n🏎 Upscaylデスクトップの5倍の速さ\n🎞 ビデオアップスケーリング\n💰 商用利用\n😴 寝ている間にUpscayl",
+    "ALREADY_REGISTERED_ALERT": "ありがとう {name}！あなたのメールはすでに登録されているようです :D そうでない場合は、もう一度お試しください。",
+    "ADD_SUCCESS": "待機リストにご参加いただきありがとうございます！Upscayl Cloudが準備でき次第お知らせします。",
+    "INCORRECT_FIELDS_ALERT": "すべてのフィールドに正しく入力してください。",
+    "JOIN_WAITLIST": "待機リストに参加",
+    "DONT_SHOW_AGAIN": "再表示しない"
+  },
+  "ONBOARDING_DIALOG": {
+    "NEXT_BUTTON_TITLE": "次へ",
+    "BACK_BUTTON_TITLE": "戻る",
+    "GET_STARTED_BUTTON_TITLE": "始める",
+    "SETTINGS_NOTE": "これらの設定は後でいつでも変更できます。",
+    "STEP_1": {
+      "TITLE": "Upscaylへようこそ 🎉",
+      "DESCRIPTION": "いくつかの簡単なステップで始めましょう。"
+    },
+    "STEP_2": {
+      "TITLE": "設定を選択 🎨",
+      "DESCRIPTION": "初期設定を構成します。"
+    },
+    "STEP_3": {
+      "TITLE": "Upscaylの使い方 🚀",
+      "DESCRIPTION": "新機能について学ぶための短いビデオをご覧ください。"
+    },
+    "STEP_4": {
+      "TITLE": "準備完了！ 🎉",
+      "DESCRIPTION": "Upscaylで画像のアップスケールを始める準備ができました！"
+    }
+  }
+}
